@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--
+    * target: a3y17lte
+    * rom: OrangeFox Recovery Project
+    -->
+
+    <!-- Remote -->
+    <remote fetch="https://gitlab.com/android_samsung_universal7870" name="a3y17lte" />
+	
+    <!-- Device -->
+    <project name="device/android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="a3y17lte" revision="fox_9.0" />
+
+    <!-- Kernel -->
+    <project name="common/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="a3y17lte" revision="fox_9.0" />
+		
+</manifest>
