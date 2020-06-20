@@ -9,8 +9,8 @@
     <remote fetch="https://gitlab.com/android_samsung_universal7870" name="a3y17lte" />
 	
     <!-- Device -->
-    <project name="device/android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="a3y17lte" revision="evox" />
-    <project name="device/android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="a3y17lte" revision="evox" />
+    <project name="device/android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="a3y17lte" revision="potato" />
+    <project name="device/android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="a3y17lte" revision="potato" />
 
     <!-- Kernel -->
     <project name="common/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="a3y17lte" revision="aosp" />

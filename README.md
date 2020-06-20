@@ -1,26 +1,30 @@
-# Evolution-X
+# POSP Croquette
 
 ### How to build ###
 
 ```bash
 # Create dirs
-$ mkdir evox ; cd evox
+$ mkdir posp ; cd posp
 
 # Init repo
-$ repo init --depth=1 -u https://github.com/Evolution-X/manifest -b ten
+$ repo init --depth=1 -u https://github.com/PotatoProject/manifest -b croquette-release
 
-# Clone my local repo
-$ git clone https://gitlab.com/android_samsung_universal7870/manifest/android_manifest_samsung_a3y17lte.git -b evox .repo/local_manifests
+# Clone local manifest
+$ git clone https://gitlab.com/android_samsung_universal7870/manifest/android_manifest_samsung_a3y17lte.git -b potato .repo/local_manifests
 
 # Sync
-$ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
+$ repo sync --force-sync
 
 # Build
-$ . build/envsetup.sh && lunch aosp_a3y17lte-userdebug && mka clean && mka api-stubs-docs && mka hiddenapi-lists-docs && mka system-api-stubs-docs && mka test-api-stubs-docs && mka bacon -j`nproc`
+For 8GB RAM
+$ . build/envsetup.sh && lunch potato_a3y17lte-user && mka clean && mka api-stubs-docs && mka hiddenapi-lists-docs && mka system-api-stubs-docs && mka test-api-stubs-docs && mka bacon -j`nproc`
+
+For 16GB RAM or more 
+$ . build/envsetup.sh && mka clean && brunch potato_a3y17lte-user
 ```
 
 ## Credits
-2019 @Astrako
+2019 @Astrako, POSP and LOS branches kept up to date by @Sap1k
 
 ## Contact
 Telegram support group: https://t.me/joinchat/D1Jk_VbieGBXOWZt2y8O7A
