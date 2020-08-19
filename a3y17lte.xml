@@ -7,19 +7,19 @@
 
     <!-- Remote -->
     <remote fetch="https://gitlab.com/android_samsung_universal7870" name="a3y17lte" />
-	
+
     <!-- Device -->
-    <project name="device/android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="a3y17lte" revision="potato" />
-    <project name="device/android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="a3y17lte" revision="potato" />
+    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="a3y17lte" revision="potato" />
+    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="a3y17lte" revision="potato" />
 
     <!-- Kernel -->
-    <project name="common/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="a3y17lte" revision="aosp" />
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="a3y17lte" revision="aosp" />
 
     <!-- Vendor -->
-    <project name="vendor/android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="a3y17lte" revision="common" />
-    <project name="vendor/android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="a3y17lte" revision="common" />
+    <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="a3y17lte" revision="common" />
+    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="a3y17lte" revision="common" />
 
-    <!-- Hardware -->   
-    <project name="common/android_hardware_samsung" path="hardware/samsung" remote="a3y17lte" revision="aosp" />
-		
+    <!-- Hardware -->
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="a3y17lte" revision="aosp" />
+
 </manifest>
