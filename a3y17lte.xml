@@ -20,6 +20,6 @@
     <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="samsungexynos7870" revision="common" />
 
     <!-- Hardware -->
-    <project name="android_hardware_samsung" path="hardware/samsung" remote="a3y17lte" revision="lineage-17.1" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="samsungexynos7870" revision="lineage-17.1" />
 
 </manifest>
