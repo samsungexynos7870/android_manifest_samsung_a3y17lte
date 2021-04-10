@@ -10,7 +10,7 @@
 
     <!-- Device -->
     <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="a3y17lte" revision="RR-8" />
-    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="a3y17lte" revision="RR-8" />
+    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="a3y17lte" revision="rr-8" />
 
     <!-- Kernel -->
     <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="a3y17lte" revision="aosp" />
