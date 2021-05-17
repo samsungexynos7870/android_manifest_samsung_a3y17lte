@@ -7,7 +7,7 @@
 $ mkdir lineage ; cd lineage
 
 # Init repo
-$ repo init --depth=1 -u https://github.com/LineageOS/android.git -b lineage-17.1
+$ repo init --depth=1 -u https://github.com/LineageOS/android.git -b lineage-18.1
 
 # Clone my local repo
 $ git clone https://gitlab.com/android_samsung_universal7870/manifest/android_manifest_samsung_a3y17lte.git -b lineage .repo/local_manifests
@@ -20,7 +20,7 @@ $ . build/envsetup.sh && lunch lineage_a3y17lte-userdebug && mka clean && mka ap
 ```
 
 ## Credits
-2019 @Astrako
+2021 @Astrako
 
 ## Contact
-Telegram support group: https://t.me/joinchat/D1Jk_VbieGBXOWZt2y8O7A
+Telegram support group: <s>https://t.me/joinchat/D1Jk_VbieGBXOWZt2y8O7A</s> DEPRECATED
