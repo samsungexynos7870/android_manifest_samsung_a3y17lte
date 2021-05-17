@@ -1,4 +1,4 @@
-# LineageOS 17.1
+# LineageOS 18.1
 
 ### How to build ###
 
