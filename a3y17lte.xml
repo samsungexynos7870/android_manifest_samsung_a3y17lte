@@ -6,7 +6,7 @@
     -->
 
     <!-- Remote -->
-    <remote fetch="https://gitlab.com/android_samsung_universal7870" name="a3y17lte" />
+    <remote fetch="https://github.com/samsungexynos7870" name="a3y17lte" />
 
     <!-- Device -->
     <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="a3y17lte" revision="lineage-18.1" />
@@ -17,7 +17,7 @@
 
     <!-- Vendor -->
     <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="a3y17lte" revision="common" />
-    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="a3y17lte" revision="common" />
+    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="a3y17lte" revision="lineage-18.1" />
 
     <!-- Hardware -->
     <project name="android_hardware_samsung" path="hardware/samsung" remote="a3y17lte" revision="lineage-18.1" />
