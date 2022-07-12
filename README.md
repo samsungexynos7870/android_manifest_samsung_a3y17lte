@@ -1,26 +1,29 @@
-# LineageOS 18.1
+# Arrow OS Android 11
 
 ### How to build ###
 
 ```bash
 # Create dirs
-$ mkdir lineage ; cd lineage
+$ mkdir arrow && cd arrow
 
 # Init repo
-$ repo init --depth=1 -u https://github.com/LineageOS/android.git -b lineage-18.1
+$ repo init -u https://github.com/ArrowOS/android_manifest.git -b arrow-11.0
 
 # Clone my local repo
-$ git clone https://github.com/samsungexynos7870/android_manifest_samsung_a3y17lte.git -b lineage-18.1 .repo/local_manifests
+$ git clone https://github.com/samsungexynos7870/android_manifest_samsung_a3y17lte.git -b arrow-11 .repo/local_manifests
 
 # Sync
-$ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
+$ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` && git clone https://github.com/samsungexynos7870/android_hardware_standalone-ported_interfaces.git -b hardware/standalone-ported && cp -r hardware/standalone-ported/power hardware/arrow/interfaces && cp -r hardware/standalone-ported/powershare hardware/arrow/interfaces && rm -rf hardware/standalone-ported
+
+# Fixup posix spawn error, caused by too long out dir path
+$ git clone https://github.com/LineageOS/android_build_soong.git tmp && cp -r tmp/ui/build/config.go cp build/soong/ui/build && && rm -rf tmp
 
 # Build
-$ . build/envsetup.sh && lunch lineage_a3y17lte-userdebug && mka clean && mka api-stubs-docs && mka hiddenapi-lists-docs && mka system-api-stubs-docs && mka test-api-stubs-docs && mka bacon -j`nproc`
+$ . build/envsetup.sh && lunch arrow_a3y17lte-user && make bacon 
 ```
 
 ## Credits
-2021 @Astrako
+2021 @Astrako 2022 @FlominatorGD
 
 ## Contact
 Telegram support group: <s>https://t.me/joinchat/D1Jk_VbieGBXOWZt2y8O7A</s> DEPRECATED
