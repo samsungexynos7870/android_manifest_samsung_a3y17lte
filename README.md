@@ -16,7 +16,7 @@ $ git clone https://github.com/samsungexynos7870/android_manifest_samsung_a3y17l
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
 
 # Build
-$ . build/envsetup.sh && lunch lineage_a3y17lte-userdebug && mka clean && mka api-stubs-docs && mka hiddenapi-lists-docs && mka system-api-stubs-docs && mka test-api-stubs-docs && mka bacon -j`nproc`
+$ . build/envsetup.sh && brunch lineage_a3y17lte-userdebug
 ```
 
 ## Credits
