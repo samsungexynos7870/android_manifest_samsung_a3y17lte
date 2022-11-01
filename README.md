@@ -1,25 +1,25 @@
-# Arrow OS Android 11
+# Lineage OS Android 12.1
 
 ### How to build ###
 
 ```bash
 # Create dirs
-$ mkdir arrow && cd arrow
+$ mkdir arrow && cd lineage
 
 # Init repo
-$ repo init -u https://github.com/ArrowOS/android_manifest.git -b arrow-11.0
+$ repo init -u https://github.com/LineageOS-UL/android.git -b lineage-19.1
+(already patched for ultra legacy devices) or use
+$ repo init -u https://github.com/LineageOS/android.git -b lineage-19.1
+(still needs to be patched for ultra legacy devices)
 
 # Clone my local repo
-$ git clone https://github.com/samsungexynos7870/android_manifest_samsung_a3y17lte.git -b arrow-11 .repo/local_manifests
+$ git clone https://github.com/samsungexynos7870/android_manifest_samsung_a3y17lte.git -b lineage-19.1-oss_bsp-vndk .repo/local_manifests
 
 # Sync
-$ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` && git clone https://github.com/samsungexynos7870/android_hardware_standalone-ported_interfaces.git -b hardware/standalone-ported && cp -r hardware/standalone-ported/power hardware/arrow/interfaces && cp -r hardware/standalone-ported/powershare hardware/arrow/interfaces && rm -rf hardware/standalone-ported
-
-# Fixup posix spawn error, caused by too long out dir path
-$ git clone https://github.com/LineageOS/android_build_soong.git -b lineage-18.1 tmp && cp -r tmp/ui/build/config.go build/soong/ui/build && rm -rf tmp
+$ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` -v
 
 # Build
-$ . build/envsetup.sh && lunch arrow_a3y17lte-user && make bacon 
+$ . build/envsetup.sh && brunch lineage_a3y17lte-user
 ```
 
 ## Credits
