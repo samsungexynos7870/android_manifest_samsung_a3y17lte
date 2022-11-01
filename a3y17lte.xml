@@ -2,30 +2,30 @@
 <manifest>
     <!--
     * target: a3y17lte
-    * rom: LineageOS 18.1
+    * rom: LineageOS 19.1
     -->
 
     <!-- Remote -->
     <remote fetch="https://github.com/samsungexynos7870" name="gitty" />
     
     <!-- Device -->
-    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="gitty" revision="arrow-11" />
-    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="gitty" revision="arrow-11" />
+    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="gitty" revision="lineage-19.1-oss_bsp-vndk" />
+    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="gitty" revision="lineage-19.1-oss_bsp-vndk" />
 
     <!-- Kernel -->
-    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="gitty" revision="aosp-11-vendor" />
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="gitty" revision="aosp-12-vendor-stageing" />
 
     <!-- Vendor -->
-    <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="gitty" revision="11-oss_bsp-vndk" />
+    <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="gitty" revision="12.1-oss_bsp-vndk" />
     <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="gitty" revision="11-oss_bsp-vndk" />
     
     <!-- Hardware -->
-    <project name="android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="arrow-11" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="lineage-19.1-universal7870" />
     
     <!-- board support package (bsp) -->
-    <project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="gitty" revision="lineage-18.1-universal7870-vndk-vendor" />
-    <project name="android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="gitty" revision="lineage-18.1-universal7870-vndk-vendor" />
-    <project name="android_hardware_samsung_slsi_exynos7870" path="hardware/samsung_slsi/exynos7870" remote="gitty" revision="lineage-18.1-universal7870-vndk-vendor" />
-    <project name="android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="gitty" revision="lineage-18.1-universal7870-vndk-vendor" />
+    <project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="gitty" revision="lineage-19.1-universal7870-vndk-vendor" />
+    <project name="android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="gitty" revision="lineage-19.1-universal7870-vndk-vendor" />
+    <project name="android_hardware_samsung_slsi_exynos7870" path="hardware/samsung_slsi/exynos7870" remote="gitty" revision="lineage-19.1-universal7870-vndk-vendor" />
+    <project name="android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="gitty" revision="lineage-19.1-universal7870-vndk-vendor" />
 
 </manifest>
