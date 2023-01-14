@@ -13,7 +13,7 @@ $ repo init -u https://github.com/ArrowOS/android_manifest.git -b arrow-11.0
 $ git clone https://github.com/samsungexynos7870/android_manifest_samsung_a3y17lte.git -b arrow-11 .repo/local_manifests
 
 # Sync
-$ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` && git clone https://github.com/samsungexynos7870/android_hardware_standalone-ported_interfaces.git -b hardware/standalone-ported && cp -r hardware/standalone-ported/power hardware/arrow/interfaces && cp -r hardware/standalone-ported/powershare hardware/arrow/interfaces && rm -rf hardware/standalone-ported
+$ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` && git clone https://github.com/samsungexynos7870/android_hardware_standalone-ported_interfaces.git -b aosp-11 hardware/standalone-ported && cp -r hardware/standalone-ported/power hardware/arrow/interfaces && cp -r hardware/standalone-ported/powershare hardware/arrow/interfaces && rm -rf hardware/standalone-ported
 
 # Fixup posix spawn error, caused by too long out dir path
 $ git clone https://github.com/LineageOS/android_build_soong.git -b lineage-18.1 tmp && cp -r tmp/ui/build/config.go build/soong/ui/build && rm -rf tmp
