@@ -4,7 +4,7 @@
 
 ```bash
 # Create dirs
-$ mkdir arrow && cd havoc
+$ mkdir havoc && cd havoc
 
 # Init repo
 $ repo init -u https://github.com/Havoc-OS/android_manifest.git -b eleven
