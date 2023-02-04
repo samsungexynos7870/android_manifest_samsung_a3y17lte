@@ -20,7 +20,7 @@
     <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="gitty" revision="11-oss_bsp-vndk" />
     
     <!-- Hardware -->
-    <project name="android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="arrow-11" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="aosp-11" />
     
     <!-- board support package (bsp) -->
     <project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="gitty" revision="lineage-18.1-universal7870-vndk-vendor" />
