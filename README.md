@@ -1,4 +1,4 @@
-# Lineage OS Android 12.1
+# Lineage OS Android 10
 
 ### How to build ###
 
@@ -7,19 +7,16 @@
 $ mkdir arrow && cd lineage
 
 # Init repo
-$ repo init -u https://github.com/LineageOS-UL/android.git -b lineage-19.1
-(already patched for ultra legacy devices) or use
-$ repo init -u https://github.com/LineageOS/android.git -b lineage-19.1
-(still needs to be patched for ultra legacy devices)
+$ repo init -u https://github.com/LineageOS/android.git -b lineage-17.1
 
 # Clone my local repo
-$ git clone https://github.com/samsungexynos7870/android_manifest_samsung_a3y17lte.git -b lineage-19.1-oss_bsp-vndk .repo/local_manifests
+$ git clone https://github.com/samsungexynos7870/android_manifest_samsung_a3y17lte.git -b lineage-17.1-oss_bsp-vndk .repo/local_manifests
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` -v
 
 # Build
-$ . build/envsetup.sh && brunch lineage_a3y17lte-user
+$ . build/envsetup.sh && brunch lineage_a3y17lte-userdebug
 ```
 
 ## Credits
