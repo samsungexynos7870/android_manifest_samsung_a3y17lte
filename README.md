@@ -7,7 +7,7 @@
 $ mkdir lineage ; cd lineage
 
 # Init repo
-$ repo init --depth=1 -u https://github.com/LineageOS/android.git -b lineage-18.1
+$ repo init -u https://github.com/LineageOS/android.git -b lineage-18.1 --git-lfs
 
 # Clone my local repo
 $ git clone https://github.com/samsungexynos7870/android_manifest_samsung_a3y17lte.git -b lineage-18.1 .repo/local_manifests
