@@ -2,31 +2,31 @@
 <manifest>
     <!--
     * target: a3y17lte
-    * rom: LineageOS 17.1
+    * rom: LineageOS 18.1
     -->
 
     <!-- Remote -->
     <remote fetch="https://github.com/samsungexynos7870" name="gitty" />
     
     <!-- Device -->
-    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="gitty" revision="lineage-17.1-oss_bsp-vndk" />
-    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="gitty" revision="lineage-17.1-oss_bsp-vndk" />
+    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="gitty" revision="lineage-18.1-oss_bsp-vndk" />
+    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="gitty" revision="lineage-18.1-oss_bsp-vndk" />
 
     <!-- Kernel -->
     <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="gitty" revision="aosp" />
 
     <!-- Vendor -->
-    <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="gitty" revision="10-oss_bsp-vndk" />
-    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="gitty" revision="10-oss_bsp-vndk" />
+    <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="gitty" revision="lineage-18.1-oss_bsp-vndk" />
+    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="gitty" revision="lineage-18.1-oss_bsp-vndk" />
     
     <!-- Hardware -->
-    <project name="android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="lineage-17.1" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="lineage-18.1" />
     
     <!-- board support package (bsp) -->
-    <project name="android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="gitty" revision="lineage-17.1" />
-    <project name="android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="gitty" revision="lineage-17.1" />
-    <project name="android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="gitty" revision="lineage-17.1" />
-    <project name="android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="gitty" revision="lineage-17.1" />
-    <project name="android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="gitty" revision="lineage-17.1" />
+    <project name="android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="gitty" revision="lineage-18.1" />
+    <project name="android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="gitty" revision="lineage-18.1" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="gitty" revision="lineage-18.1" />
+    <project name="android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="gitty" revision="lineage-18.1" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="gitty" revision="lineage-18.1" />
 
 </manifest>
