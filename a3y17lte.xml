@@ -20,7 +20,7 @@
     <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="gitty" revision="lineage-18.1-oss_bsp-vndk" />
 
     <!-- Slsi SEpolicy -->
-    <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi" remote="gitty" revision="lineage-18.1" />
+    <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="gitty" revision="lineage-18.1" />
     
     <!-- Hardware -->
     <project name="android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="lineage-18.1" />
