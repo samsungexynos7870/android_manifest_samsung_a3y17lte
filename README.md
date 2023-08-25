@@ -4,7 +4,7 @@
 
 ```bash
 # Create dirs
-$ mkdir arrow && cd lineage
+$ mkdir lineage && cd lineage
 
 # Init repo
 $ repo init -u https://github.com/LineageOS/android.git -b lineage-18.1 --git-lfs
