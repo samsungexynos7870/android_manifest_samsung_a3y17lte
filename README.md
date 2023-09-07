@@ -7,9 +7,9 @@
 $ mkdir arrow && cd lineage
 
 # Init repo
-$ repo init -u https://github.com/LineageOS-UL/android.git -b lineage-19.1
+$ repo init -u https://github.com/LineageOS-UL/android.git -b lineage-19.1 --git-lfs
 (already patched for ultra legacy devices) or use
-$ repo init -u https://github.com/LineageOS/android.git -b lineage-19.1
+$ repo init -u https://github.com/LineageOS/android.git -b lineage-19.1 --git-lfs
 (still needs to be patched for ultra legacy devices)
 
 # Clone my local repo
