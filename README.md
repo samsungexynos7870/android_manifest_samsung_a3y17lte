@@ -7,8 +7,7 @@
 $ mkdir twrp ; cd twrp
 
 # Init repo
-$ repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
-
+$ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
 # Clone my local repo
 $ git clone https://github.com/samsungexynos7870/android_device_samsung_a3y17lte.git -b twrp device/samsung/a3y17lte
 
