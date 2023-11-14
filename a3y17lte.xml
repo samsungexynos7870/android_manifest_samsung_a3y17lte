@@ -13,7 +13,7 @@
     <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="gitty" revision="lineage-20-oss_bsp-vndk" />
 
     <!-- Kernel -->
-    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="gitty" revision="aosp-13-vendor-stageing" />
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="gitty" revision="aosp-13-vendor" />
 
     <!-- Vendor -->
     <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="gitty" revision="13-oss_bsp-vndk" />
