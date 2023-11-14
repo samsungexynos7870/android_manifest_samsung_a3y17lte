@@ -1,19 +1,19 @@
-# Lineage OS Android 12.1
+# Lineage OS Android 13
 
 ### How to build ###
 
 ```bash
 # Create dirs
-$ mkdir arrow && cd lineage
+$ mkdir lineage && cd lineage
 
 # Init repo
-$ repo init -u https://github.com/LineageOS-UL/android.git -b lineage-19.1 --git-lfs
+$ repo init -u https://github.com/LineageOS-UL/android.git -b lineage-20 --git-lfs
 (already patched for ultra legacy devices) or use
-$ repo init -u https://github.com/LineageOS/android.git -b lineage-19.1 --git-lfs
+$ repo init -u https://github.com/LineageOS/android.git -b lineage-20 --git-lfs
 (still needs to be patched for ultra legacy devices)
 
 # Clone my local repo
-$ git clone https://github.com/samsungexynos7870/android_manifest_samsung_a3y17lte.git -b lineage-19.1-oss_bsp-vndk .repo/local_manifests
+$ git clone https://github.com/samsungexynos7870/android_manifest_samsung_a3y17lte.git -b lineage-20 .repo/local_manifests
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` -v
