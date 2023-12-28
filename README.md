@@ -4,12 +4,12 @@
 
 ```bash
 # Create dirs
-$ mkdir lineage && cd lineage
+$ mkdir LineageOS20 && cd LineageOS20
 
 # Init repo
-$ repo init -u https://github.com/LineageOS-UL/android.git -b lineage-20 --git-lfs
+$ repo init -u https://github.com/LineageOS-UL/android.git -b lineage-20.0 --git-lfs
 (already patched for ultra legacy devices) or use
-$ repo init -u https://github.com/LineageOS/android.git -b lineage-20 --git-lfs
+$ repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
 (still needs to be patched for ultra legacy devices)
 
 # Clone my local repo
