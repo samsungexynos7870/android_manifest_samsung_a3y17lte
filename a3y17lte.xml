@@ -17,7 +17,7 @@
 
     <!-- Vendor -->
     <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="gitty" revision="12.1-oss_bsp-vndk" />
-    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="gitty" revision="12.1-oss_bsp-vndk" />
+    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="gitty" revision="lineage-19.1-oss_bsp-vndk" />
     
     <!-- Hardware -->
     <project name="android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="lineage-19.1-universal7870" />
@@ -28,10 +28,4 @@
     <project name="android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="gitty" revision="lineage-19.1" />
     <project name="android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="gitty" revision="lineage-19.1" />
     <project name="android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="gitty" revision="lineage-19.1" />
-
-    <!-- Remote -->
-    <remote fetch="https://github.com/LineageOS" name="slsi-sepolicy" />
-    <!-- Slsi SEpolicy -->
-    <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="slsi-sepolicy" revision="lineage-19.1" />
-
 </manifest>
