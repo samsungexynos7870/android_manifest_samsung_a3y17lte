@@ -16,7 +16,7 @@ $ repo init -u https://github.com/LineageOS/android.git -b lineage-19.1 --git-lf
 $ git clone https://github.com/samsungexynos7870/android_manifest_samsung_a3y17lte.git -b lineage-19.1-oss_bsp-vndk .repo/local_manifests
 
 # Sync
-$ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` -v
+$ repo sync -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` -v
 
 # Build
 $ . build/envsetup.sh && brunch lineage_a3y17lte-user
