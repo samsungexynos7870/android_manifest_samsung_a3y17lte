@@ -7,6 +7,7 @@
 
     <!-- Remote -->
     <remote fetch="https://github.com/samsungexynos7870" name="gitty" />
+    <remote fetch="https://github.com/LineageOS" name="samsung_nfc" />
     
     <!-- Device -->
     <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="gitty" revision="lineage-18.1-oss_bsp-vndk" />
@@ -21,6 +22,7 @@
     
     <!-- Hardware -->
     <project name="android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="lineage-18.1" />
+    <project name="android_hardware_samsung_nfc" path=path="hardware/samsung" remote="samsung_nfc" revision="lineage-18.1" />
     
     <!-- board support package (bsp) -->
     <project name="android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="gitty" revision="lineage-18.1" />
