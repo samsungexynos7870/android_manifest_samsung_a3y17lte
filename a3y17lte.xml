@@ -22,7 +22,7 @@
     
     <!-- Hardware -->
     <project name="android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="lineage-18.1" />
-    <project name="android_hardware_samsung_nfc" path="hardware/samsung" remote="samsung_nfc" revision="lineage-18.1" />
+    <project name="android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="samsung_nfc" revision="lineage-18.1" />
     
     <!-- board support package (bsp) -->
     <project name="android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="gitty" revision="lineage-18.1" />
