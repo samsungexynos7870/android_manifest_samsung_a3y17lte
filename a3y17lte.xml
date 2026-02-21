@@ -18,6 +18,7 @@
     <!-- Vendor -->
     <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="gitty" revision="lineage-20-oss_bsp-vndk" />
     <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="gitty" revision="lineage-20-oss_bsp-vndk" />
+    <project name="android_vendor_samsung_universal7870-common-patches" path="vendor/samsung/universal7870-common-patches" remote="gitty" revision="lineage-20" />
     
     <!-- board support package (bsp) -->
     <project name="android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="gitty" revision="lineage-20" />
@@ -25,6 +26,7 @@
     <project name="android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="gitty" revision="lineage-20" />
     <project name="android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="gitty" revision="lineage-19.1" />
     <project name="android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="gitty" revision="lineage-20" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos7870" path="hardware/samsung_slsi-linaro/exynos7870" remote="gitty" revision="lineage-20" />
 
     <!-- Remote -->
     <remote fetch="https://github.com/LineageOS" name="lineage-imports" />
