@@ -7,16 +7,14 @@
 $ mkdir LineageOS20 && cd LineageOS20
 
 # Init repo
-$ repo init -u https://github.com/LineageOS-UL/android.git -b lineage-20.0 --git-lfs
-(already patched for ultra legacy devices) or use
 $ repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
-(still needs to be patched for ultra legacy devices)
+(we have legacy patches)
 
 # Clone my local repo
 $ git clone https://github.com/samsungexynos7870/android_manifest_samsung_a3y17lte.git -b lineage-20 .repo/local_manifests
 
 # Sync
-$ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc` -v
+$ repo sync --force-sync --no-clone-bundle --no-tags -v
 
 # Build
 $ . build/envsetup.sh && brunch lineage_a3y17lte-user
