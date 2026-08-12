@@ -10,8 +10,8 @@
     <remote fetch="https://github.com/LineageOS" name="samsung_nfc" />
     
     <!-- Device -->
-    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="gitty" revision="lineage-18.1-oss_bsp-vndk" />
-    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="gitty" revision="lineage-18.1-oss_bsp-vndk" />
+    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="gitty" revision="lineage-18.1-lts" />
+    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="gitty" revision="lineage-18.1-lts" />
 
     <!-- Kernel -->
     <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="gitty" revision="lineage-18.1-lts" />
