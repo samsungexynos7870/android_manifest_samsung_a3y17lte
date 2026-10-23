@@ -18,7 +18,7 @@
     <!-- Vendor -->
     <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="gitty" revision="lineage-22.2" />
     <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="gitty" revision="lineage-22.2" />
-    <project name="android_vendor_samsung_universal7870-common-patches" path="vendor/samsung/universal7870-common-patches" remote="gitty" revision="lineage-22.2" />
+    <project name="android_vendor_samsung_universal7870-common-patches" path="vendor/samsung/universal7870-common-patches" remote="gitty" revision="lineage-22.2-bpf" />
     
     <!-- board support package (bsp) -->
     <project name="android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="gitty" revision="lineage-22.2" />
