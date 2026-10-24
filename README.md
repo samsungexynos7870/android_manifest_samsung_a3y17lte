@@ -6,7 +6,7 @@ LineageOS 22.2 is based on Android 15. This repository includes legacy patches r
 
 ```bash
 # Create and enter the source directory
-mkdir LineageOS22.2 && cd LineageOS22.2
+mkdir Los22 && cd Los22
 
 # Initialize the LineageOS 22.2 source tree
 repo init -u https://github.com/LineageOS/android.git -b lineage-22.2 --git-lfs
