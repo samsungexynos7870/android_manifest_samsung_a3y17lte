@@ -24,7 +24,7 @@ repo sync --force-sync --no-clone-bundle --no-tags -v
 ## Credits
 
 - @Astrako (2021)
-- @FlominatorGD (2024)
+- @FlominatorGD (2026)
 
 ## Contact
 
