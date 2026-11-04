@@ -18,7 +18,7 @@ git clone -b lineage-24.0 https://github.com/samsungexynos7870/android_manifest_
 repo sync --force-sync --no-clone-bundle --no-tags -v
 
 # Configure and build
-. build/envsetup.sh && brunch lineage_a3y17lte-bp1a-userdebug
+. build/envsetup.sh && brunch lineage_a3y17lte-cp2a-userdebug
 ```
 
 ## Credits
