@@ -1,6 +1,6 @@
 # LineageOS 24.0 for Samsung Galaxy A3 (2017) (`a3y17lte`)
 
-LineageOS 24.0 is based on Android 15. This repository includes legacy patches required for this device.
+LineageOS 24.0 is based on Android 17. This repository includes legacy patches required for this device.
 
 ## Build instructions
 
